@@ -1,0 +1,22 @@
+{
+  "name": "@jpc-yoshimatsu/nuxt3-dev-stack",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "Nuxt3 DEV環境で使用する基本のpackage stackを管理するためのリポジトリ",
+  "dependencies": {
+    "nuxt": "^3.16.2",
+    "vuetify": "^3.6.11"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpc-yoshimatsu/nuxt3-dev-stack.git"
+  }
+}
