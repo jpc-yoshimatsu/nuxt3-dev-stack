@@ -9,7 +9,16 @@
   "license": "MIT",
   "description": "Nuxt3 DEV環境で使用する基本のpackage stackを管理するためのリポジトリ",
   "dependencies": {
+    "@iconify/vue": "^4.3.0",
+    "@nuxt/eslint-config": "^0.7.6",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/seo": "^3.0.2",
+    "dayjs-nuxt": "^2.1.11",
+    "eslint": "^9.24.0",
     "nuxt": "^3.16.2",
+    "nuxt-gtag": "^2.1.0",
+    "sass": "^1.86.3",
+    "vite-plugin-vuetify": "^2.1.1",
     "vuetify": "^3.6.11"
   },
   "publishConfig": {
