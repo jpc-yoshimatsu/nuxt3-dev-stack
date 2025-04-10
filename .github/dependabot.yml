@@ -18,3 +18,23 @@ updates:
     commit-message:
       prefix: "⬆️"
       include: "scope"
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+      timezone: "Asia/Tokyo"
+    open-pull-requests-limit: 30
+    versioning-strategy: "auto"
+    labels:
+      - "security"
+      - "dependencies"
+    commit-message:
+      prefix: "🔥"
+      include: "scope"
+    insecure-external-code-execution: deny
+    security:
+      updates: true
+      alerts: true
+      severity: ["high", "critical"]
