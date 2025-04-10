@@ -1,7 +1,6 @@
 'use strict';
 
-// コンポーネントをエクスポート
+// このパッケージはメタパッケージとして機能し、依存関係の管理のみを目的としています
 module.exports = {
-  // 今後追加するコンポーネントやユーティリティをここでエクスポート
   version: require('./package.json').version
 }; 
