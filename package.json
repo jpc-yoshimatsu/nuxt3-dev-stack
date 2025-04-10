@@ -16,7 +16,7 @@
     "dayjs-nuxt": "^2.1.11",
     "eslint": "^9.24.0",
     "nuxt": "^3.16.2",
-    "nuxt-gtag": "^2.1.0",
+    "nuxt-gtag": "^3.0.2",
     "sass": "^1.86.3",
     "vite-plugin-vuetify": "^2.1.1",
     "vuetify": "^3.8.1"
